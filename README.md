@@ -1,1 +1,1 @@
-# java-servlet-
+Java + JSP + HTML + Tomcat(xampp) + MySQL(xampp)
