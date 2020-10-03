@@ -11,6 +11,6 @@ public class p5 extends HttpServlet
 		String a = req.getParameter("n1");
 		String b = req.getParameter("n2");
 		out.print("<title>server</title>");
-		out.println("sum: " + (Integer.parseInt(a)+Integer.parseInt(b)));
+		out.println("sum: <u>" + (Integer.parseInt(a)+Integer.parseInt(b)) + "</u>");
 	}
 }

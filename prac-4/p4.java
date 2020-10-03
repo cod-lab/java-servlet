@@ -10,7 +10,7 @@ public class p4 extends HttpServlet
 		PrintWriter out = res.getWriter();
 		String str = req.getParameter("uname");
 		out.print("<title>server</title>");
-		out.println("hey!.. " + str);
+		out.println("hey!.. <b>" + str + "</b>");
 	}
 }
 // out.print("<html>");
