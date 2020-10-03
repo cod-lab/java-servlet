@@ -33,7 +33,7 @@ public class p1 extends HttpServlet
         }
     }
 
-	public void service(HttpServletRequest req, HttpServletResponse res) throws IOException, ServletException
+    public void service(HttpServletRequest req, HttpServletResponse res) throws IOException, ServletException
     {
         // String url = "jdbc:mysql://localhost:3306/ejava";
         String url = "jdbc:mysql://localhost:3306/ejava?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";

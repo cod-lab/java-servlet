@@ -1,1 +1,0 @@
-https://github.com/RameshMF/servlet-tutorial/tree/master/jsp-servlet-jdbc-mysql-example
