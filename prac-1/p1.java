@@ -43,7 +43,7 @@ public class p1 extends HttpServlet
         res.setContentType("text/html");
         PrintWriter out = res.getWriter();
 
-		String n = req.getParameter("name");
+	String n = req.getParameter("name");
         String r = req.getParameter("roll");
 
         String query1 = "insert into prac1 values('"+r+"','"+n+"')";
