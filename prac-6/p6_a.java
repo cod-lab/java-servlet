@@ -13,7 +13,10 @@ public class p6_a extends HttpServlet
 
 		out.print("<title>server1</title>");
 		if(b.equals("abc"))
+		{
+			req.setAttribute("a",a);		// (key,value), set(declared(as key in an object with value as variable 'a' declared above)) new variable 'a' to pass it to file 'p6_b.java' through server 'server6_b'
 			req.getRequestDispatcher("server6_b").forward(req,res);
+		}
 		else
 		{
 			req.getRequestDispatcher("index.html").include(req,res);
