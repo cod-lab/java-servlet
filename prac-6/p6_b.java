@@ -10,8 +10,8 @@ public class p6_b extends HttpServlet
 		PrintWriter out = res.getWriter();
 		String a = req.getParameter("name");
         
-        out.print("<title>server2</title>");
-        req.getRequestDispatcher("index.html").include(req,res);
-        out.println("<div class='container'>&nbsp;&nbsp;&nbsp;hey!.. <b>" + a + "</b></div>");
+	        out.print("<title>server2</title>");
+        	req.getRequestDispatcher("index.html").include(req,res);
+	        out.println("<div class='container'>&nbsp;&nbsp;&nbsp;hey!.. <b>" + a + "</b></div>");
 	}
 }
