@@ -39,6 +39,10 @@
         <servlet-name>server6_b</servlet-name>
         <servlet-class>p6_b</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>server7</servlet-name>
+        <servlet-class>p7</servlet-class>
+    </servlet>
 
     <servlet-mapping>
         <servlet-name>home</servlet-name>
@@ -71,6 +75,10 @@
     <servlet-mapping>
         <servlet-name>server6_b</servlet-name>
         <url-pattern>/prac-6/server6_b</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>server7</servlet-name>
+        <url-pattern>/prac-7/server7</url-pattern>
     </servlet-mapping>
 
 </web-app>
