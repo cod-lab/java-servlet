@@ -85,5 +85,7 @@
             </tr>
         </tbody>
     </table>
+    <br><br>
+    <a href="index.html" target="_blank"><i>add new form</i></a>
 </body>
 </html>
