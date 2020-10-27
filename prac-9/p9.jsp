@@ -65,8 +65,8 @@
                 %>
                 <td>
                     <i><b>
-                        <% if(a != null) { out.println(a); %> <br> <% } %>
-                        <% if(b != null) { out.println(b); %> <br> <% } %>
+                        <% if(a != null) out.println(a + "<br>"); %>
+                        <% if(b != null) out.println(b + "<br>"); %>
                         <% if(c != null) out.println(c); %>
                     </b></i>
                 </td>
@@ -82,6 +82,25 @@
                 <td>photo: </td>
                 <td><b>|</b></td>
                 <td><i><b><% out.println(request.getParameter("i8")); %></b></i></td>
+
+                <!-- <td>
+                    <i><b>
+                        <%--
+                            String img=request.getParameter("i8");
+                            if(img.length() > 0)
+                            {
+                                byte[] imageBytes = getImageAsBytes();
+
+                                response.setContentType("image/jpeg");
+                                response.setContentLength(imageBytes.length);
+
+                                response.getOutputStream().write(imageBytes);
+                                out.println(imageBytes);
+                            }
+                        --%>
+                    </b></i>
+                </td> -->
+
             </tr>
         </tbody>
     </table>
